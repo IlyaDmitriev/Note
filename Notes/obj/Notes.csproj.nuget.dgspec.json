@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Notes\\Notes\\Notes.csproj": {}
+    "D:\\tes\\Notes\\Notes.csproj": {}
   },
   "projects": {
-    "D:\\Notes\\NotesCore\\NotesCore.csproj": {
+    "D:\\tes\\NotesCore\\NotesCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Notes\\NotesCore\\NotesCore.csproj",
+        "projectUniqueName": "D:\\tes\\NotesCore\\NotesCore.csproj",
         "projectName": "NotesCore",
-        "projectPath": "D:\\Notes\\NotesCore\\NotesCore.csproj",
+        "projectPath": "D:\\tes\\NotesCore\\NotesCore.csproj",
         "packagesPath": "C:\\Users\\asura\\.nuget\\packages\\",
-        "outputPath": "D:\\Notes\\NotesCore\\obj\\",
+        "outputPath": "D:\\tes\\NotesCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -43,19 +43,23 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "EntityFramework": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
-              "version": "[6.3.0-preview5-19254-05, )"
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.0.0-preview5.19227.1, )"
+              "version": "[2.2.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0-preview5.19227.1, )"
+              "version": "[2.2.2, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -72,14 +76,14 @@
         }
       }
     },
-    "D:\\Notes\\Notes\\Notes.csproj": {
+    "D:\\tes\\Notes\\Notes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Notes\\Notes\\Notes.csproj",
+        "projectUniqueName": "D:\\tes\\Notes\\Notes.csproj",
         "projectName": "Notes",
-        "projectPath": "D:\\Notes\\Notes\\Notes.csproj",
+        "projectPath": "D:\\tes\\Notes\\Notes.csproj",
         "packagesPath": "C:\\Users\\asura\\.nuget\\packages\\",
-        "outputPath": "D:\\Notes\\Notes\\obj\\",
+        "outputPath": "D:\\tes\\Notes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -100,8 +104,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\Notes\\NotesCore\\NotesCore.csproj": {
-                "projectPath": "D:\\Notes\\NotesCore\\NotesCore.csproj"
+              "D:\\tes\\NotesCore\\NotesCore.csproj": {
+                "projectPath": "D:\\tes\\NotesCore\\NotesCore.csproj"
               }
             }
           }
@@ -115,20 +119,34 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.3.0-preview5-19254-05, )"
-            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.2, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
